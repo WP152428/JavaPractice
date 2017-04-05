@@ -28,7 +28,8 @@ public class Question {
 			System.out.println(Q[i]);
 			String answer = scanner.nextLine();
 			System.out.println(answer.equals(A[i]) ? "정답입니다!":"틀렸습니다!");
-		}scanner.close();
+		}
+		scanner.close();
 		
     	StringBuilder sb = new StringBuilder();
 	    for(int i = 0;i<=2;i++){
