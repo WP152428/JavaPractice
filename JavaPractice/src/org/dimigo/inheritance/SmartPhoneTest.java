@@ -23,6 +23,7 @@ public class SmartPhoneTest {
 				new Galaxy("갤럭시 S8","삼성",800000),
 				
 		};
+			
 
 		for(int i=0;i<2;i++){
 			System.out.println(s[i]);

@@ -28,7 +28,7 @@ public class MovieTest {
 			try{
 				movie.buyTicket(age); 
 			}catch(Exception e){
-		
+				System.out.println(e.getMessage());
 			}
 			
 		}
